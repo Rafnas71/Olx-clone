@@ -11,9 +11,7 @@ export default function Signup() {
   const [password,setPassword] = useState('');
   
   const {firebase} = useContext(FirebaseContext);
-  const history = useHistory();
-
-  
+  const history = useHistory() 
 
   const handleClick = (e)=>{
     e.preventDefault()
